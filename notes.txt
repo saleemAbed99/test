@@ -11,3 +11,5 @@ To merge branches together: git merge ~branch name~
 To add a remote repository: git remote add ~remote name~ ~https://yourremoteurl~
 To pull changes from a remote repository: git pull ~remote name~ ~branch name~
 To push changes to a remote repository: git push ~remote name~ ~branch name~
+
+-u : save these settings which means that next time we do this all we have to type is git push and it will automatically remember that it was origin and master that we pushed to
